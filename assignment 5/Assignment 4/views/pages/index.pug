@@ -1,0 +1,11 @@
+html
+body
+	include ../partials/header
+
+	div#main
+		if name
+			h1= "Welcome to the home page, " + name + "!" 
+		else
+			h1= "Welcome to the home page!"
+			
+		

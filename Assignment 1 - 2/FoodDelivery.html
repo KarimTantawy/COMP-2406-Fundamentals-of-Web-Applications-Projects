@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Delivery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	* {
+	  box-sizing: border-box;
+	}
+	.column1 {
+	  float: left;
+	  width: 15%;
+	  padding: 3px;
+	}
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	.column2 {
+	  float: left;
+	  width: 40%;
+	  padding: 3px;
+	}
+	.column3 {
+	  float: left;
+	  width: 25%;
+	  padding: 3px;
+	  outline: 2px solid black;
+	}
+	</style>
+</head>
+<body>
+ 
+	<h2>Assignment 1</h2>
+	
+	<div id = "restaurantInfo">
+		<select id="restaurantSelect">
+		</select>
+		<br>
+		<br>
+		<b id="info">efenm</b>
+		<br>
+		<br>
+	</div>
+	
+	<div class="row">
+		<div id="categories" class="column1">
+			<h3 id="head1" style="background-color:#aaa;">Categories</h3>
+		</div>
+		
+		<div id="menu" class="column2" style="background-color:#fff;">
+			<h3 id="head2" style="background-color:#aaa;"> Menu</h3>
+		</div>
+		
+		<div id="order" class="column3">
+			<h3 id="head3" style="background-color:#aaa;">Order</h3>
+			<p>Some text..</p>
+		</div>
+	</div>
+	
+	<script src="client.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 2</title>
+</head>
+<body>
+	<h1>Trivia Game</h1>
+	
+	<div>
+		<h2 id = "roundDisplay"><h2>
+	</div>
+	
+	<div id = "startingPage">
+		<br>
+		Username: <input type="textbox" id="userName" />
+		<button type="button" id="joinGame">Join Game</button>
+		<br>
+		<br>
+	</div>
+
+	<div id = "triviaPage">
+	</div>
+	
+	<div id = "loadClear">
+		<button type="button" id="submit">Finished!</button>
+		<br>
+		<br>
+	</div>
+	
+	<div id = "score">
+		<b id="scoreDisplay">ScoreBoard: </b>
+		<br>
+	</div>
+	
+	<div id = "messageBoard">
+		<br>
+		<b>Message Board: </b>
+		<br>
+	</div>
+	
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="trivia.js"></script>
+	
+</body>
+</html>

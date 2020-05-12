@@ -1,0 +1,15 @@
+html
+	head
+
+	body
+		include ../partials/header
+		
+		h3
+			| Restaurant Statistics
+			
+		div
+			each rest in Object.keys(orderSum)
+				b="Restaurant: " + rest
+				li="Order Number: " + orderSum[rest].orderNumber 
+				li="Average Order: $" + orderSum[rest].averageOrder 
+				li="Most Popular Item: " + orderSum[rest].popularItem

@@ -1,0 +1,16 @@
+{
+  "name": "triviaserver",
+  "version": "1.0.0",
+  "description": "Kareem Tantawy\r 101083898",
+  "main": "ConvertQuestionsToJSON.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

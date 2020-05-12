@@ -1,0 +1,23 @@
+div#header
+	a(href="/") Home
+	| 
+	a(href="/users") Browse Users
+	| 
+	if loggedIn == true
+		a(href="/order") Order
+		| 
+		a(href="/profile") Profile
+		|
+		a(href="/logout") Logout
+		|
+	else
+		a(href="/register") Register
+		|
+		form(action='/login' method='POST')
+			div.form-group
+				label(for='name') Username:
+				input#name.form-control(type="text", placeholder="username" name="username")
+			div.form-group
+				label(for='pw') Password:
+				input#pw.form-control(type="text" placeholder="password" name="password")
+			button.btn.btn-primary(type="submit") Login

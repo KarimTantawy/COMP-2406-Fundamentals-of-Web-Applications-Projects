@@ -1,0 +1,26 @@
+html
+	head
+
+	body
+		include ../partials/header
+		
+		h3= "User " + user.username + "'s Profile:"
+		
+		if isOwner
+			b="Privacy Setting: "
+			form(method='POST' action='/updateprivacy')
+				div.form-group
+					label(for='true') true
+					input#true.form-control(type='radio', name='privacy', value='true')
+				div.form-group
+					label(for='false') false
+					input#false.form-control(type='radio', name='privacy', value='false')
+				button.btn.btn-primary(type='submit') Update Privacy
+		
+		div
+			p= "username: " + user.username
+			|
+			b= "Order History: "
+			|
+			br
+			

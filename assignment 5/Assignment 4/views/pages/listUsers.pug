@@ -1,0 +1,16 @@
+html
+	head
+
+	body
+		include ../partials/header
+		
+		h3 Users:
+		
+		div
+			if users.length == 0
+				h4 No Users Found
+			else
+				each user in users
+					a(href="/users/"+user._id) #{user.username}
+					| 
+					br
