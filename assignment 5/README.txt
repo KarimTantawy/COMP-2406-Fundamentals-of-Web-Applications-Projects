@@ -1,5 +1,4 @@
 Name: 		Kareem Tantawy
-Student Number: 101083898
 
 Necessary Files:
 		-database-initializer.js
