@@ -1,5 +1,4 @@
 Kareem Tantawy
-101083898
 
 Instructions:
 1. start node server by running TriviaGameServer.js
