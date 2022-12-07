@@ -4,7 +4,7 @@
   "description": "Kareem Tantawy\r 101083898",
   "main": "ConvertQuestionsToJSON.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "uuid": "^3.3.3"
   },
   "devDependencies": {},
